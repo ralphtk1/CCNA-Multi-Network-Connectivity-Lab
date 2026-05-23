@@ -100,6 +100,8 @@ Basic device security configurations were also implemented during the lab, inclu
 
 These configurations reinforced foundational Cisco IOS security administration concepts alongside network connectivity configuration.
 
+```
+
 <img width="531" height="270" alt="Complete CCNA 1" src="https://github.com/user-attachments/assets/d9e432cd-5f1b-47b1-be8e-e8053bf1e526" />
 
 
