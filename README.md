@@ -1,31 +1,55 @@
-# Configure Wireless Router and Clients
+# CCNA Multi-Network Router Configuration and Connectivity Lab
 
-## Objectives
+## Overview
+Configured a Cisco router and multiple end hosts across separate IPv4 networks using Cisco IOS CLI. Established inter-network communication through manual interface configuration, static addressing, subnet mask assignment, and Layer 3 routing verification.
 
-Part 1: Connect the Devices
+This lab focused on operational network configuration and packet communication behavior including ARP resolution, broadcast traffic, and unicast forwarding between separate networks.
 
-Part 2: Configure the Wireless Router
+---
 
-Part 3: Configure IP Addressing and Test Connectivity
+## Technical Objectives
+- Configure router interfaces using Cisco IOS CLI
+- Assign IPv4 addresses and subnet masks
+- Enable and verify router interfaces
+- Configure static host addressing
+- Validate Layer 3 communication between networks
+- Verify operational interface states
+- Observe ARP broadcast and unicast packet behavior
+- Test connectivity using ICMP echo requests
 
-### Skills Learned
+---
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+## Technologies and Concepts
+- Cisco IOS
+- IPv4 Addressing
+- Subnetting
+- Router Interface Configuration
+- Static Host Configuration
+- ARP
+- ICMP
+- Broadcast vs Unicast Communication
+- Layer 3 Routing
+- CLI Administration
 
-### Tools Used
-[Bullet Points - Remove this afterwards]
+---
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+## Network Topology
+(Add topology screenshot here)
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+---
 
+## Key IOS Commands Used
+
+```bash
+enable
+configure terminal
+interface g0/0
+ip address
+no shutdown
+show ip interface brief
+show running-config
+ping
+ping
 Every screenshot should have some text explaining what the screenshot is about.
 
 Example below.
