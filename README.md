@@ -42,13 +42,25 @@ This lab focused on operational network configuration and packet communication b
 ```bash
 enable
 configure terminal
-interface g0/0
+interface
 ip address
 no shutdown
 show ip interface brief
 show running-config
 ping
 
-Example below.
+---
 
-*Ref 1: Network Diagram*
+## Configuration Explanation
+
+Router interfaces were manually configured using Cisco IOS CLI. IPv4 addresses and subnet masks were assigned to each interface based on their associated network segments.
+
+Interfaces were administratively enabled using the `no shutdown` command and verified using operational show commands including:
+
+```bash
+show ip interface brief
+show running-config
+```
+
+Each host device was assigned a static IPv4 address, subnet mask, and default gateway corresponding to its local network.
+```
