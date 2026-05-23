@@ -85,3 +85,35 @@ Successful replies confirmed:
 - Accurate subnet mask assignment
 - Operational router interfaces
 - Proper Layer 3 packet forwarding
+
+---
+
+## Additional Security Configuration
+
+Basic device security configurations were also implemented during the lab, including:
+- `enable secret` password configuration
+- Console and VTY password configuration
+- Service password encryption
+- Administrative access hardening basics
+
+These configurations reinforced foundational Cisco IOS security administration concepts alongside network connectivity configuration.
+
+<img width="531" height="270" alt="Complete CCNA 1" src="https://github.com/user-attachments/assets/a4c8f490-b9ac-487d-840e-ff853be65195" />
+
+## Skills Demonstrated
+- Cisco IOS CLI administration
+- Router and switch interface configuration
+- IPv4 addressing and subnetting
+- Static host configuration
+- Router interface activation using `no shutdown`
+- Layer 3 routing fundamentals
+- ARP and packet communication behavior
+- Broadcast and unicast traffic understanding
+- ICMP connectivity verification
+- Network topology documentation
+- Basic connectivity troubleshooting
+- Cisco device password configuration
+- `enable secret` administrative security configuration
+- Service password encryption
+- Basic Cisco IOS device hardening
+- Verification using IOS show commands
