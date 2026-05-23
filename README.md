@@ -48,6 +48,8 @@ no shutdown
 show ip interface brief
 show running-config
 ping
+enable secret
+service password-encryption
 
 ---
 
