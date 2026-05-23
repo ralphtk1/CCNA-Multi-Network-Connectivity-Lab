@@ -16,6 +16,7 @@ Additional security-focused configurations were implemented to reinforce foundat
 - Verify operational interface states
 - Observe ARP broadcast and unicast packet behavior
 - Test connectivity using ICMP echo requests
+- Secure Traffic forwarding devices login with encryption 
 
 ---
 
