@@ -52,7 +52,6 @@ ping
 ---
 
 ## Configuration Explanation
-
 Router interfaces were manually configured using Cisco IOS CLI. IPv4 addresses and subnet masks were assigned to each interface based on their associated network segments.
 
 Interfaces were administratively enabled using the `no shutdown` command and verified using operational show commands including:
@@ -64,3 +63,25 @@ show running-config
 
 Each host device was assigned a static IPv4 address, subnet mask, and default gateway corresponding to its local network.
 ```
+---
+
+## Packet Flow and Communication Behavior
+
+When devices initiated communication, ARP broadcasts were first generated to resolve unknown destination MAC addresses on the local network.
+
+After successful ARP resolution, communication transitioned into unicast Ethernet forwarding between devices.
+
+The Cisco router functioned as the Layer 3 forwarding device responsible for routing traffic between the separate IPv4 networks.
+
+---
+
+## Connectivity Verification
+
+ICMP ping testing was performed between hosts located on separate IPv4 networks to verify successful end-to-end communication.
+
+Successful replies confirmed:
+- Correct interface configuration
+- Proper IPv4 addressing
+- Accurate subnet mask assignment
+- Operational router interfaces
+- Proper Layer 3 packet forwarding
