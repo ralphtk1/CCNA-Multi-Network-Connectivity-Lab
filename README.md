@@ -36,7 +36,7 @@ This lab focused on operational network configuration and packet communication b
 ## Network Topology
 (Add topology screenshot here)
 
----
+<img width="664" height="337" alt="CCNA Github 1" src="https://github.com/user-attachments/assets/c6fd100c-5de8-4fbb-ab9e-8f9f74c797fb" />
 
 ## Key IOS Commands Used
 
@@ -49,8 +49,6 @@ no shutdown
 show ip interface brief
 show running-config
 ping
-ping
-Every screenshot should have some text explaining what the screenshot is about.
 
 Example below.
 
