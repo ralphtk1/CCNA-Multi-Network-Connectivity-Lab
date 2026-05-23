@@ -1,9 +1,9 @@
 # CCNA Multi-Network Router Configuration and Connectivity Lab
 
 ## Overview
-Configured a Cisco router and multiple end hosts across separate IPv4 networks using Cisco IOS CLI. Established inter-network communication through manual interface configuration, static addressing, subnet mask assignment, and Layer 3 routing verification.
+Configured a multi-network Cisco IOS routing environment using Packet Tracer to establish secure and verified communication between separate IPv4 networks. Router and switch interfaces were manually configured through Cisco CLI administration, including IPv4 addressing, subnet mask assignment, interface activation, and connectivity validation.
 
-This lab focused on operational network configuration and packet communication behavior including ARP resolution, broadcast traffic, and unicast forwarding between separate networks.
+Additional security-focused configurations were implemented to reinforce foundational Cisco IOS device hardening practices, including administrative password protection, console and VTY access configuration, and service password encryption.
 
 ---
 
@@ -122,5 +122,5 @@ These configurations reinforced foundational Cisco IOS security administration c
 - Cisco device password configuration
 - `enable secret` administrative security configuration
 - Service password encryption
-- Basic Cisco IOS device hardening
+- Cisco IOS device hardening
 - Verification using IOS show commands
